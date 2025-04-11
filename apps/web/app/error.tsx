@@ -17,7 +17,7 @@ const ErrorPage = ({
   error: Error & { digest?: string };
   reset: () => void;
 }) => {
-  console.error(error);
+  console.error(error); 
 
   return (
     <div className={'flex h-screen flex-1 flex-col'}>
